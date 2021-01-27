@@ -1,0 +1,73 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3
+              a(href="/")  CLAV 
+            h5=tip.designacao
+        .w3-container
+            table(class="w3-table-all")
+               tr
+                th Sigla
+                th Designação
+                th Estado
+               tr
+                td= tip.sigla
+                td= tip.designacao
+                td= tip.estado  
+        h3 Lista de Entidades            
+        if elementos.length > 0
+            .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th ID
+                        th Sigla
+                        th Designação
+                    each elem in elementos
+                        tr
+                            td 
+                                a(href="/entidade/"+elem.id)= elem.id
+                            td= elem.sigla
+                            td= elem.designacao
+        else
+            div(class="w3-container")
+                p Ainda não há Elementos.
+        h3 Lista de Processos em que é Dona        
+        if dona.length > 0
+            .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th ID
+                        th Codigo
+                        th Titulo
+                    each d in dona
+                        tr
+                            td 
+                                a(href="/processos/"+d.id)= d.id
+                            td= d.codigo
+                            td= d.titulo
+        else
+            div(class="w3-container")
+                p Ainda não há Processos.
+        h3 Lista de Processos em que é Participante        
+        if participa.length > 0
+            .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th ID
+                        th Codigo
+                        th Titulo
+                    each p in participa
+                        tr
+                            td 
+                                a(href="/processos/"+p.id)= p.id
+                            td= p.codigo
+                            td= p.titulo  
+        else
+            div(class="w3-container")
+                p Ainda não há Processos.                    
+        footer(class="w3-container w3-teal")
+           adress A85367 
+           br
+           a(href="/") voltar

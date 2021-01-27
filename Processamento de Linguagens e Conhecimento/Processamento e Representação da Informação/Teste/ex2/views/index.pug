@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3 CLAV 
+            h5 Plataforma da Direção-Geral do Livro
+        if lista.length > 0
+            .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th Codigo
+                        th Titulo
+                    each classe in lista
+                        tr
+                            td
+                              a(href="/classe/c"+classe.codigo)= classe.codigo
+                            td= classe.titulo
+        else
+            div(class="w3-container")
+                p Ainda não há Classes Nível 1.
+            footer(class="w3-container w3-teal")
+                adress A85367

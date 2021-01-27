@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+  <entrada id="e1">
+      <nome>Paulo Lopes</nome>
+      <email></email>
+      <telefone></telefone>
+  </entrada>
+  <grupo gid="caminhadas">
+      <ref apontado="e1"/>
+      <entrada id="e2">
+          <nome>Fernanda</nome>
+          <email></email>
+          <telefone></telefone>
+      </entrada>
+  </grupo>
+</agenda>

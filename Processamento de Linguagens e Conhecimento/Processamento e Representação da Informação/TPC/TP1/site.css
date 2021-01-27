@@ -1,0 +1,14 @@
+.container {
+    width:500px;
+    position: fixed;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+}
+
+.w3-myfont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: center;
+  }

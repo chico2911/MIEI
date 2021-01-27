@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>PRI 2020</key>
+        <title>Teste de Processamento e Representação de Informação</title>
+        <bdate>18-01-2021</bdate>
+        <edate>18-01-2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A85367">
+            <name>Luís Francisco Mendes Lopes</name>
+            <email>a85367@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+           No primeiro exercício é pedido para criar um servidor de dados de forma a responder certos pedidos. Numa primeira fase foi preciso limpar e preparar o dataset fornecido, para isto utilizei o Sublime que com a sua ferramenta <b>findAll/replaceALl</b>
+            permitiu subsituir todas as <b>ref</b>s por <b>_id</b>s e a substituição das <b>/</b> pelos <b>_</b>. Após, recorrendo ao mongoimport, disponiblizado pelo Mongo Tools, através do código <b>mongoimport --db arqCas --collection casamentos --drop --file casamentos.json --jsonArray</b>
+            importamos o dataset para uma base de dados não relacional.
+            É necessário realizar uma conexão com o servidor Mongod, utilizou-se o mongoose para este efeito.
+            Foram criados dois ficheiros javascripts para ajudar no tratamento e requerimento dos dados ao mongo.
+        </p>
+        <p> 
+            No segundo exercício, foi proposta a implementção de um servidor que disponibiliza paginas html para ver a informação disponibilizada na API de dados da CLAV. Este servidor api
+            utiliza axios para efetuar pedidos ao api da CLAV. Este servidor escuta na porta 7001, para executar basta fazer <b>npm install</b> e <b>npm start</b> 
+        </p>
+            <p>
+                <b>1. </b>
+                <u>Resposta: Existem 842 processos de nível 3 e existem 17 processos de nível 3 descendentes de 750.</u>
+            </p>
+            <p>
+                <b>2. </b>
+                <u>Resposta: Existem 116 subprocessos.</u>
+            </p>
+            <p>
+                <b>3. </b>
+                <u>Resposta: Existem 5 subprocessos.</u>
+            </p>
+            <p>
+                <b>4. </b>
+                <u>Resposta: Estão relacionados 6 processos. </u>
+            </p>
+    </abstract>
+    <deliverables>
+            <link url="../casamentos.json">DataSet</link>
+            <link url="../ex1/">API de Dados</link>
+            <link url="../ex2/">API Server</link>
+    </deliverables>
+</pr>

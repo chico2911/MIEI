@@ -1,0 +1,60 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3
+              a(href="/")  CLAV 
+            h5=classe.titulo
+        .w3-container
+            table(class="w3-table-all")
+               tr
+                th Codigo
+                th Descrição
+                th Status
+                th ID
+                th Nivel
+               tr
+                td= classe.codigo
+                td= classe.descricao
+                td= classe.status  
+                td= classe.id
+                td= classe.nivel
+        h3 Lista de Descendentes            
+        if classe.filhos.length > 0
+            .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th Codigo
+                        th Titulo
+                    each elem in classe.filhos
+                        tr
+                            td 
+                                a(href="/classe/c"+elem.codigo)= elem.codigo
+                            td= elem.titulo
+        else
+            div(class="w3-container")
+                p Ainda não há Descendentes.
+        if nivel==3 
+            h3 Lista de Relações   
+            if relacoes.length > 0
+                .w3-container
+                 table(class="w3-table-all")
+                        tr
+                            th Codigo
+                            th idRel
+                            th Titulo
+                        each filho in relacoes
+                            if filho.idRel == 'eCruzadoCom' || filho.idRel == 'eComplementarDe' || filho.idRel == 'eSuplementoDe' || filho.idRel == 'eSuplementoPara'
+                                tr
+                                    td 
+                                        a(href="/classe/c"+filho.codigo)= filho.codigo
+                                    td= filho.idRel  
+                                    td= filho.titulo
+            else
+                div(class="w3-container")
+                    p Ainda não há Relações.      
+        footer(class="w3-container w3-teal")
+           adress A85367 
+           br
+           a(href="javascript:history.back()") voltar

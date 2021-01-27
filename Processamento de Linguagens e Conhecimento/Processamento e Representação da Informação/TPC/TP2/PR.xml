@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PR SYSTEM "../../../../Desktop/Untitled.dtd">
+<PR>
+    <key-name>TPC2</key-name>
+    <titulo>Trabalho Prático 2</titulo>
+    <subtitulo>Trabalho proposto pelo professor.</subtitulo>
+    <begin-date>outubro 2020</begin-date>
+    <end-date>outubro 2020</end-date>
+    <supervisor href="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    <workteam>
+        <elemento>
+            <nome>Luís Francisco Mendes Lopes</nome>
+            <mail href="mailto:franciscomendeslopes.85367@gmail.com">franciscomendeslopes.85367@gmail.com</mail>
+        </elemento>
+    </workteam>
+    <abstract>
+        <paragrafo>
+            O tabalho prático contribui para <b>consolidar</b> e <i>estender</i> o meu conhecimento sobre dtd e outras formas textuais.
+        </paragrafo>
+    </abstract>
+    <deliverables>
+        <LI href="PR.dtd">Project Record DTD</LI>
+    </deliverables>
+</PR>

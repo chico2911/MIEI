@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3 CLAV 
+            h5= enti.designacao
+        .w3-container
+            table(class="w3-table-all")
+               tr
+                th Sigla
+                th Designação
+                th Estado
+               tr
+                td= enti.sigla
+                td= enti.designacao
+                td= enti.estado 
+        footer(class="w3-container w3-teal")
+            adress A85367
+            br
+            a(href="javascript:history.back()") voltar
+            br
+            a(href="/") Home
