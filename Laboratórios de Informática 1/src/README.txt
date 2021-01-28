@@ -1,0 +1,1 @@
+sou um ficheiro txt
