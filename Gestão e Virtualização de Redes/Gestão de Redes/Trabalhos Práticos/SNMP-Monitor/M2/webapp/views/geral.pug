@@ -1,0 +1,70 @@
+doctype html
+html
+  head
+    title SNMP-Monitor
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    script(src='https://code.jquery.com/jquery-3.4.1.min.js')
+    script(src='https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js')
+  body
+    block content
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 #{host}
+        .w3-container           
+        table(class="w3-table-all")
+            td Maior Consumo CPU
+                table(class="w3-table-all")
+                    tr
+                        th ID
+                        td=maiorC
+            td Maior Consumo RAM
+                table(class="w3-table-all")         
+                    tr
+                        th ID
+                        td=maiorR
+        table(class="w3-table-all")
+             td     
+                div(id='container',style='width=auto;height: 589px;')
+             td
+                div(id='ram',style='width=auto;height: 589px;')
+
+    footer(class="w3-container w3-teal")
+                adress Gerado por SNMP-Manager 
+                br
+                a(href='/') Voltar
+  script.
+        var d= new Date();
+        $("#data").text(d.toISOString().substr(0,10));
+        anychart.onDocumentReady(function() {
+        // create the chart
+        var dataC = #{cpuData}
+        var dataR = #{ramData}
+        var chartRam = anychart.pie(dataR)
+        // set chart title text settings
+        chartRam.title('RAM')
+        // set chartRam radius
+        chartRam.radius('43%')
+        // create empty area in pie chartRam
+        chartRam.innerRadius('50%')
+        // set container id for the chartRam
+        chartRam.container('ram');
+        // initiate chartRam drawing
+
+        
+
+        var chart = anychart.pie(dataC)
+        // set chart title text settings
+        chart.title('CPU')
+        // set chart radius
+        chart.radius('43%')
+        // create empty area in pie chart
+        chart.innerRadius('50%')
+        // set container id for the chart
+        chart.container('container');
+        // initiate chart drawing
+        chart.animation(true)
+        chartRam.animation(true)
+        chart.draw();
+        chartRam.draw();
+        });

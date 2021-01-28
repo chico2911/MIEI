@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  header.w3-container.w3-teal
+    h1 SNMP-Monitor
+  h3 Lista de Processos
+    ul
+      li
+          if recursos.length > 0
+            each a in recursos
+              a(href='processos/'+a.id)=a.id
+          else 
+            p Não há recursos    
+    h3 Dados Gerais
+    ul
+      li
+          if recursos.length > 0
+            each a in recursos
+              a(href='gerais/'+a.id)=a.id
+          else 
+            p Não há recursos
+  footer(class="w3-container w3-teal")
+    adress Gerado por SNMP-Monitor           

@@ -1,0 +1,56 @@
+@startuml
+
+title __SNMP-Notifier Class Diagram__\n
+
+
+  namespace snmp-notifier  {
+  class Parser {
+          + Parser()
+          + now()
+      }
+    class worker.classifier {
+        ~ max_value_cpu : long
+        ~ max_value_ram : long
+        + classifier()
+        + run()
+    }
+    class worker {
+            ~ cpu : long
+            ~ email : String
+            ~ ram : long
+            - adress : String
+            + getProcess()
+            + run()
+            + worker()
+        }
+        class sendEmail {
+                ~ props : Properties
+                ~ session : Session
+                + run()
+                + sendEmail()
+            }
+    class process {
+            ~ cpu : long
+            ~ id : long
+            ~ ram : long
+            ~ timestamp : String
+            + getCpu()
+            + getId()
+            + getRam()
+            + getTimestamp()
+            + process()
+            + setCpu()
+            + setId()
+            + setRam()
+            + setTimestamp()
+        }
+    class notifier {
+            {static} + main()
+        }
+  }
+  worker o-- process
+  
+
+
+
+@enduml

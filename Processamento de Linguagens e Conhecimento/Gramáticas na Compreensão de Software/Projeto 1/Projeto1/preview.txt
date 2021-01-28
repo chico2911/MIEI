@@ -1,0 +1,16 @@
+"caracteristica1" : [ "c1", "c11" ] ;
+"caracteristica2" : [ "c2", "c22", "c222"] ;
+"caracteristica3" : [ "c3" ]
+-
+R1 "Recurso1" [18-23] [ "caracteristica1" , "caracteristica2" ] ;
+R2 "Recurso2" [20-21] [ "caracteristica3" ]
+-
+PG123 21 [ "caracteristica2" ]
+-
+C1 "Conceito1"
+-
+R1 ENSINA C1 ;
+R2 ENSINA C1
+-
+ENSINAR C1 AO PG123 ?
+.

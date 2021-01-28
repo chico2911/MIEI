@@ -1,0 +1,15 @@
+logger B -> Ola
+logger A -> Ola
+logger B -> Onde estas?
+logger A -> Em Guimarães
+logger B -> Onde é uimarães?
+logger A -> Espanha
+logger B -> Onde é Guimarães
+logger A -> Espanha
+logger B -> Onde é Guimarães?
+logger A -> Espanha
+logger B -> Ola
+logger A -> Oi
+logger B -> Então está tudo bem?
+logger A -> Sim e contigo?
+logger B -> Comigo também

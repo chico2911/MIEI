@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#252C36</color>
+    <color name="colorPrimaryDark">#252C36</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorButtons">#0F1114</color>
+    <color name="colorRetangulos">#252C36</color>
+    <color name="colorTextBox">#FFFFFF</color>
+    <color name="colorBackground">#3C434C</color>
+    <color name="colorSeta">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRegistar">#FFFFFF</color>
+    <color name="settings">#FFFFFF</color>
+    <color name="buttonPressed">#000000</color>
+    <color name="buttonUnPressed">#FFFFFF</color>
+</resources>

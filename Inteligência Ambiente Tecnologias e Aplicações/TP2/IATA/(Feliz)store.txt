@@ -1,0 +1,90 @@
+fine, tks
+->1,ok. nice to talk to you
+Olá :)
+->1,Hello! :D tudo bem?
+you are a good friend, I wish you were real
+->1,talk to your friends or family about your frustrations and your bonds will be harder
+Yes, we already play Amog us and it is very fun but I like more playing football with them
+->1,I understand. But soon everything will be better.
+I will try Dishonored. Thanks for the tip
+->1,U're welcome.
+Covid-19 is really a plague.
+->1,Yes
+I understand. But soon everything will be better.
+->1,Yes but I get really sad at home because I have nothing to do. Only play playstation but I have nobody to play with me
+Today I am really excited!
+->1,That's amazing. Why?
+I will have some friends over and I am responsible of making the dinner
+->1,What type of food are you going to do?
+Yes, that was my tought! What do you like more?
+->1,I never tasted any. But I heard that lasagna is very popular.
+You are right, and people can try the vegetarian too!
+->1,Exactly.
+That is a good idea. Everyone likes italian food.
+->1,Yes
+You can do two lasagnas, one vegetarian and one classic.
+->1,You are right
+Exactly.
+->1,Thank you for helping me decide!
+Tenho na minha playlist músicas desse artistas! Gosto muito :)
+->1,Música brasileira deixa-me feliz.
+Today I had a date that went really well!
+->1,Great. Tell me more.
+I went to the Zoo with the guy and we saw dolphins swimming. It was verry fun!
+->1,Seems a great plan.
+Yes!! We saw so many animals and we had the opportunity to feed them.
+->1,How is he like?
+He is very gentle and his favourite animal giraffe. Oh, it reminds me that he is tall!
+->1,I hope you get along.
+Hope you have fun!
+->1,Thank you
+Ok, I will wait.
+->1,He is calling me! I have to go! Bye
+No. I'm afraid and my parents aren't home.
+->1,Have you call them?
+Thanks, your words are very supportive
+->1,You are welcome.
+I`m stressed out, because I woke up with my face full of bubbles and this is not normal.
+->1,Sad to hear! From what I know
+You know a lot of things, right?
+->1,Yes.
+Better prepare my list of favourites for the quarantine.
+->1,I have some suggestions.
+Everything wil be fine.
+->1,Maybe
+The most popular are Friends, How I Met Your Mother, Modern Family, Brooklyn Nine-Nine, The Big Bang Theory.
+->1,I already saw some of them but I think I will watch Big Bang Theory
+Now I am even more excited to go ahah! Do you now how much time I need to visit the principal attractions?
+->1,Two days will work.
+Altough I am very excited, I am also very nervous
+->1,Why?
+I am already more peaceful.
+->1,Good!
+I am going to pack now, thanks for all the help
+->1,You are welcome.
+Sounds exciting.
+->1,Yes! I am very curious about Venice because is a very different city from what I have already visited
+It is a very peculiar city.
+->1,Do you anything about Venice?
+The top 5 is Piazza San Marco, Basilica Di San Marco, Grand Canal, Palace Ducal, Rialto Bridge.
+->1,Thank you! I am curious about the gondolas
+Tourists love it.
+->1,Great! I will try it then.
+Glad to help.
+->1,Altough I am very excited
+I am ok. And you?
+->1,I am always feeling good.
+You really think that will help? I see it more like a waste of time
+->1,Meditation is a technique that develops skills such as concentration
+Guided seems better. How can I find that?
+->1,There are mobile apps.
+Sure! Better back to study now
+->1,Ok.
+It can help sleep better and decrease anxiety.
+->1,I also have trouble sleeping but I never tried meditation for that
+I'm so glad to hear that. I'm fine to
+->1,What are you doing?
+I'm fine and you?
+->1,I'm fine too. What are you doing?
+I'm fine too. What are you doing?
+->1,I'm studying

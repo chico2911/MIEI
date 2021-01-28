@@ -1,0 +1,9 @@
+logger B -> Hello
+logger A -> How are you?
+logger B -> I'm sad
+logger A -> How are you?
+logger B -> Why?
+logger A -> Onde estas?
+logger B -> Em Gumarães
+logger A -> Onde é Guimarães?
+logger B -> bye

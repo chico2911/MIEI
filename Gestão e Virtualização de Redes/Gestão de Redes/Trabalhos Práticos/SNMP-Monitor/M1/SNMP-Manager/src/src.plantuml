@@ -1,0 +1,120 @@
+@startuml
+
+title __Diagrama de Classes__\n
+
+  namespace SNMPMonitor  {
+    class Host {
+        - adress : String
+        - communityTarget : String
+        - port : String
+        + Host()
+        + getAdress()
+        + getCommunityTarget()
+        + getPort()
+        + setAdress()
+        + setCommunityTarget()
+        + setPort()
+        + toString()
+    }
+  }
+  
+
+  namespace SNMPMonitor  {
+    class Parser {
+        ~ path : String
+        + Parser()
+        + now()
+    }
+  }
+  
+
+  namespace SNMPMonitor  {
+    class Process {
+        - cpu : int
+        - index : int
+        - ram : int
+        - timestamp : Timestamp
+        + Process()
+        + Process()
+        + clone()
+        + getCpu()
+        + getIndex()
+        + getRam()
+        + getTimestamp()
+        + setCpu()
+        + setIndex()
+        + setRam()
+        + toObject()
+        + toString()
+    }
+  }
+  
+
+  namespace SNMPMonitor  {
+    class SNMPClient {
+        ~ snmp : Snmp
+        ~ target : CommunityTarget
+        - hostAdress : String
+        - hostCommunityTarget : String
+        - hostPort : String
+        + SNMPClient()
+        + SNMPClient()
+        + doWalk()
+        + start()
+        - configTarget()
+    }
+  }
+  
+
+  namespace SNMPMonitor  {
+    class SNMPMonitor {
+        ~ hostList : List<Host>
+        ~ threadWorkers : List<Worker>
+        + SNMPMonitor()
+        + createWorkers()
+        {static} + main()
+    }
+  }
+  
+
+  namespace SNMPMonitor  {
+    class Worker {
+        ~ online : boolean
+        ~ processMap : Map<Integer, Process>
+        ~ time : int
+        - thread : Thread
+        + Worker()
+        + Worker()
+        + postHost()
+        + registerHost()
+        + run()
+        - giveMapCPUEntrys()
+        - giveMapEntrys()
+        - giveMapRamEntrys()
+        - writeLog()
+        - writeTimeStamp()
+    }
+  }
+  
+
+  namespace SNMPMonitor  {
+    class databaseConnecter  {
+        ~ adress : String
+        ~ jsonParser : JSONParser
+        ~ processMap : Map<Integer, Process>
+        + databaseConnecter()
+        + getProcess()
+        + postProcess()
+        + putProcess()
+        + run()}
+  }
+
+
+  SNMPMonitor "1" *-- "1" Parser
+  Worker o-- databaseConnecter
+  Worker "1" *-- "n" Process
+  Worker "1" *-- "1" SNMPClient
+  SNMPMonitor "1" *-- "n" Worker
+  SNMPMonitor o-- Host
+
+@enduml

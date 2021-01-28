@@ -1,0 +1,56 @@
+Thank you! That is actually very interesting and makes sense. How do you know those things?
+->1,I spend my time searching facts on google. Ahah
+Good idea! I will work on my reading habits!
+->1,It will be good for you.
+Good talking to you! I have to go, my mom is calling me for dinner.
+->1,Have a good dinner!
+I think they are very beautiful
+->1,I think that too. But I am wondering...
+It will be good for you.
+->1,Good talking to you! I have to go
+That's a good idea but I prefer games with some story. I alreadyplay Fifa online
+->1,I heard that Dishonored and Bioshock Infinite have the best narratives.
+I heard that Dishonored and Bioshock Infinite have the best narratives.
+->1,I will try Dishonored. Thanks for the tip
+That's amazing. Why?
+->1,I will have some friends over and I am responsible of making the dinner
+I never tasted any. But I heard that lasagna is very popular.
+->1,But I have one vegetarian friend
+You are welcome.
+->1,I will go to the supermarket now to get the ingredients I need
+->3,I have to go. Bye
+->2,I will start now!!! Bye bye
+Bossa Nova é também muito popular.
+->1,Conheço algumas músicas de artistas brasileiros mas confesso que ainda não explorei muito.
+I'm so happy today!!
+->1,I want to know everything!
+Great. Tell me more.
+->1,I went to the Zoo with the guy and we saw dolphins swimming. It was verry fun!
+Seems a great plan.
+->1,Yes!! We saw so many animals and we had the opportunity to feed them.
+Good choice.
+->1,Thank u
+I am excited!!!
+->1,What happened?
+The most popular attractions
+->1,The top 5 is Piazza San Marco
+Great! I will try it then.
+->1,Great!
+Ah ok, got it!
+->1,Glad to help.
+Because I have to fly
+->1,Airplanes are the safest transport.
+Good! Where to?
+->1,Italy. I am going to visit Venice and Milan
+Great!
+->1,Now I am even more excited to go ahah! Do you now how much time I need to visit the principal attractions?
+Glad to help!
+->1,I am already more peaceful.
+Good!
+->1,I am going to pack now
+I am in exam season so I am not in my best.
+->1,Why?
+I will search about that! And find the best one for me
+->1,It will bring you peace.
+I am always feeling good.
+->1,I am in exam season so I am not in my best.

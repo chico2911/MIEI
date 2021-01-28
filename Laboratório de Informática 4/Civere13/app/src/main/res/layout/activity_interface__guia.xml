@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".view.Menu">
+
+    <ImageView
+        android:id="@+id/Topo"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="464dp"
+        android:contentDescription="@string/topo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@color/colorRetangulos" />
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/seta"
+        android:backgroundTint="@color/colorTextBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/braga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/trans"
+        android:text="Guia"
+        android:textColor="@color/colorTextBox"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Topo" />
+
+    <Button
+        android:id="@+id/excursions"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_map_black_24dp"
+        android:backgroundTint="@color/buttonUnPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addExcursion"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_add_circle_black_24dp"
+        android:backgroundTint="@color/buttonUnPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/wallet"
+        app:layout_constraintStart_toEndOf="@+id/excursions" />
+
+
+    <Button
+        android:id="@+id/wallet"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_account_balance_wallet_black_24dp"
+        android:backgroundTint="@color/buttonUnPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/walletView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorBackground"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/addExcursion"
+        app:layout_constraintTop_toBottomOf="@+id/Topo"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ListView
+            android:id="@+id/walletExcursionsList"
+            android:layout_width="match_parent"
+            android:layout_height="397dp"
+            android:background="@color/colorBackground"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/moneyBack"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </ListView>
+
+        <ImageView
+            android:id="@+id/moneyBack"
+            android:layout_width="match_parent"
+            android:layout_height="677dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/wallet_background"
+            android:contentDescription="@string/topo"
+            android:translationY="-350dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-5dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/trans"
+            android:text="300€"
+            android:textColor="@color/colorTextBox"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/button2"
+            app:layout_constraintHorizontal_bias="0.346"
+            app:layout_constraintStart_toStartOf="@+id/button2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/errorM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/trans"
+            android:text="@string/LoginErro"
+            android:textColor="@color/red"
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toTopOf="@id/amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="300dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/password_box"
+            android:ems="10"
+            android:hint="amount"
+            android:textColorHint="@color/colorBlack"
+            android:visibility="visible"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@id/editText4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="300dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/password_box"
+            android:ems="10"
+            android:hint="IBAN"
+            android:visibility="visible"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="70dp"
+            android:animateLayoutChanges="true"
+            android:background="@drawable/entrar"
+            android:backgroundTint="@color/colorBackground"
+            android:text="CashOut"
+            app:layout_constraintBottom_toBottomOf="@id/moneyBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/addView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorBackground"
+        android:visibility="invisible"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/Topo"
+        app:layout_constraintBottom_toTopOf="@id/addExcursion"
+        tools:layout_editor_absoluteX="16dp">
+
+
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="300dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="42dp"
+            android:autofillHints="@string/firts_name"
+            android:background="@drawable/password_box"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:text="Date"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColorHint="@color/colorBlack"
+            android:textColor="@color/colorBlack"
+            android:textSize="13dp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="300dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="42dp"
+            android:autofillHints="@string/firts_name"
+            android:background="@drawable/password_box"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:text="Time"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColorHint="@color/colorBlack"
+            android:textColor="@color/colorBlack"
+            android:textSize="13dp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/timestamp" />
+
+
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="300dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/password_box"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="@color/colorBlack"
+            android:textColor="@color/colorBlack"
+            android:textSize="13dp"
+            android:hint="Price"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/time" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="300dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginStart="42dp"
+            android:text="Select Interest Points"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:textColorHint="@color/colorBlack"
+            android:gravity="center"
+            android:background="@drawable/password_box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/price"/>
+
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="160dp"
+            android:background="@drawable/entrar"
+            android:text="@string/Confirm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textinput" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textinput"
+            android:layout_width="300dp"
+            android:layout_height="400px"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/password_box"
+            android:hint="Descrição"
+            android:textColorHint="@color/colorBlack"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/excursionsView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorBackground"
+        android:visibility="visible"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/Topo"
+        app:layout_constraintBottom_toTopOf="@id/addExcursion"
+        tools:layout_editor_absoluteX="-2dp">
+
+        <ListView
+            android:id="@+id/excursionsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

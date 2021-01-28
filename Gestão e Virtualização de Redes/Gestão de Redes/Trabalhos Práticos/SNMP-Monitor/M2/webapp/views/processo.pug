@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title SNMP-Monitor
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    script(src='https://code.jquery.com/jquery-3.4.1.min.js')
+    script(src='https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js')
+  body
+    block content
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Processo: #{a.id}
+            .w3-container
+              table(class="w3-table-all")
+                tr
+                    th RAM (last 7)
+                        td #{RAM}
+                tr
+                    th CPU (last 7)
+                        td #{CPU}
+                tr        
+                    th TIMESTAMP
+                        td= a.TIMESTAMP
+    table(class="w3-table-all")
+      td     
+        div(id='container')
+      td  
+        div(id='ram')
+    footer(class="w3-container w3-teal")
+                adress Gerado por SNMP-Monitor
+                br
+                a(href="/processos/"+host) Voltar     
+  script.
+        var d= new Date();
+        $("#data").text(d.toISOString().substr(0,10));
+        anychart.onDocumentReady(function() {
+        // create the chart
+        var dataC = #{cpuData}
+        var dataR = #{ramData}
+        var chart = anychart.line();
+        var chartRam = anychart.line();
+        chartRam.line(dataR);
+        var series = chart.line(dataC);
+        chart.xAxis().title('Segundos');
+        chart.yAxis().title('Centisegundos');
+        var yScale = chart.yScale();
+        chartRam.container('ram')
+        chartRam.xAxis().title('Segundos');
+        chartRam.yAxis().title('KB');
+        chart.container("container");
+        chart.animation(true);
+        chart.title('CPU Usage')
+        chartRam.title("RAM Usage")
+        chartRam.animation(true);
+        chart.draw();
+        chartRam.draw()
+        });

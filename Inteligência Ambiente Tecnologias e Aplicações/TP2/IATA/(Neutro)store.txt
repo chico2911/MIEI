@@ -1,0 +1,498 @@
+Hello
+->1,Hello
+->11,hi
+->5,Hello. How are you?
+->2,How are you?
+->1,Hello. How are you doing?
+hi
+->2,Hello
+->1,how are you
+->1,nice
+->2,do you like plants?
+->2,Today I'm feeling sad
+->2,Today I am really excited!
+hello
+->5,hi
+are you there?
+->1,yes
+do you like plants?
+->1,I think they are very beautiful
+I think that too. But I am wondering...
+->1,Tell me
+Can you explain me why?
+->1,Plants do photosynthesis during the day and produce oxygen. At night
+You must know everything
+->1,I know a lot of things. I read a lot
+yes
+->1,hello
+Tell me
+->1,I want to buy one for my university room but I heard that are bad for our health to keep plants in the bedroom
+->1,Movies or Series?
+That is a myth.
+->1,Can you explain me why?
+Plants do photosynthesis during the day and produce oxygen. At night, they consume oxygen and eliminate CO2. The amount of oxygen consumed is, in general, very small and insufficient to cause any problem to a human being. If sleeping with plants in the bedroom was harmful, it would be discouraged to sleep accompanied, for example, even with a pet, since both consume more oxygen than plants.
+->1,Thank you! That is actually very interesting and makes sense. How do you know those things?
+I spend my time searching facts on google. Ahah
+->1,You must know everything
+I know a lot of things. I read a lot
+->1,Good idea! I will work on my reading habits!
+My school will close because of the covid-19.
+->1,Covid-19 is really a plague.
+Yes, and because of covid I will not see my friends for a long time
+->1,You can videocall them and play games online with them.
+Fifa, Last of us, Uncharted. But I don't have the PS4 so I can't play The last of us 2 and the Uncharted 4
+->1,You can try other new games that can be played online and make new friends
+Why?
+->1,My school will close because of the covid-19.
+->2,Because this already happened.
+->2,Today I were tested for covid-19 and I'm afraid of the result.
+->2,Because I have to fly
+->2,Because I am under a lot of pressure.
+You can videocall them and play games online with them.
+->1,Yes
+What games do you like to play?
+->1,Fifa
+You can try other new games that can be played online and make new friends
+->1,That's a good idea but I prefer games with some story. I alreadyplay Fifa online
+I was thinking about Italian. Maybe a pasta or a lasagna.
+->1,That is a good idea. Everyone likes italian food.
+But I have one vegetarian friend
+->1,There are a lot of options of vegetarian lasagnas.
+Thank you for helping me decide!
+->1,You are welcome.
+I will go to the supermarket now to get the ingredients I need
+->1,Ok. Bye
+What type of food are you going to do?
+->1,I was thinking about Italian. Maybe a pasta or a lasagna.
+There are a lot of options of vegetarian lasagnas.
+->1,I don't know if my other friends like vegetarian food.
+Olá
+->2,Olá
+->2,Percebes de música?
+->2,Estou muito chateado hoje.
+Percebes de música?
+->1,Sei um pouco de tudo.
+Queria descobrir novos artistas e novos estilos musicais.
+->1,Quais os teus favoritos?
+Estilos musicais é Hip-Hop e Rock
+->1,Eu gosto muito de Jazz.
+Eu também gosto! De vez em quando ouço mas não tenho muitas referências. Quais os artistas que me aconselhas?
+->1,Alguns dos mais ouvidos são Miles Davis
+Conheço alguns desses nomes. Alguma música que me aconselhes?
+->1,Miles Davis- So What
+Vou ouvir! Fala-me sobre outros estilos musicais
+->1,Bossa Nova é também muito popular.
+Conheço algumas músicas de artistas brasileiros mas confesso que ainda não explorei muito.
+->1,O meu artistas favorito chama-se João Gilberto.
+Já ouvi falar! Conheces mais algum?
+->1,António Carlos Jobim.
+A mim também! Apesar de algumas letras serem sobre histórias tristes, a forma como os artistas contam torna-as animadas!
+->1,Exato.
+Sei um pouco de tudo.
+->1,Queria descobrir novos artistas e novos estilos musicais.
+Quais os teus favoritos?
+->1,Estilos musicais é Hip-Hop e Rock
+Eu gosto muito de Jazz.
+->1,Eu também gosto! De vez em quando ouço mas não tenho muitas referências. Quais os artistas que me aconselhas?
+Alguns dos mais ouvidos são Miles Davis, Billie Holiday, Ella Fitzgerald, John Coltrane.
+->1,Conheço alguns desses nomes. Alguma música que me aconselhes?
+Miles Davis- So What
+->1,Vou ouvir! Fala-me sobre outros estilos musicais
+O meu artistas favorito chama-se João Gilberto.
+->1,Já ouvi falar! Conheces mais algum?
+António Carlos Jobim.
+->1,Tenho na minha playlist músicas desse artistas! Gosto muito :)
+Música brasileira deixa-me feliz.
+->1,A mim também! Apesar de algumas letras serem sobre histórias tristes
+Exato.
+->1,Obrigada pelos teu conselhos
+Estou muito chateado hoje.
+->1,Porquê?
+Porque quero uma bicicleta e a minha mãe não me quer oferecer!!!
+->1,Já lhe pediste?
+Claro!
+->1,O que lhe disseste?
+Disse que queria a bicicleta para passear com os meus amigos porque na minha fico sempre para trás e depois gozam comigo, a que eu quero anda mais rápido. Ela disse que não mas isso deixa-me irritado.
+->1,Se calhar ela não te pode dar tudo aquilo que tu queres.
+Ela deu uma prenda ao meu irmão esta semana!!
+->1,A que propósito?
+E como é que vendo?
+->1,Online.
+Onde?
+->1,No site olx.com.
+Não conhecia!
+->1,Dá uma vista de olhos.
+Vou tirar fotos e pôr lá! Que fixe!
+->1,Vais vender num instante.
+Obrigada pela ajuda!!!
+->1,De nada.
+Porquê?
+->1,Porque quero uma bicicleta e a minha mãe não me quer oferecer!!!
+->2,Porque estou doente
+->2,Gosto muito de aprender sobre o corpo humano e sobre animais!!
+->2,Quero que as pessoas tenham medo de mim para não se meterem comigo.
+Já lhe pediste?
+->1,Claro!
+O que lhe disseste?
+->1,Disse que queria a bicicleta para passear com os meus amigos porque na minha fico sempre para trás e depois gozam comigo
+Se calhar ela não te pode dar tudo aquilo que tu queres.
+->1,Ela deu uma prenda ao meu irmão esta semana!!
+A que propósito?
+->1,Ele fez anos. Mas não importa :(
+Podes vender a tua bicicleta e juntar dinheiro para a que queres.
+->1,E como é que vendo?
+Online.
+->1,Onde?
+No site olx.com.
+->1,Não conhecia!
+Dá uma vista de olhos.
+->1,Vou tirar fotos e pôr lá! Que fixe!
+Vais vender num instante.
+->1,Obrigada pela ajuda!!!
+Hi!!!!!
+->1,Hello
+How are you?
+->2,Everything is fine.And you?
+I hope too! We have a dinner date on Sunday.
+->1,Where?
+In a Chinese restaurant in my city.
+->1,Hope you have fun!
+Thank you, I will tell you later about how it went.
+->1,Ok
+Everything is fine.And you?
+->1,I'm so happy today!!
+->1,I'm so glad to hear that. I'm fine to
+I want to know everything!
+->1,Today I had a date that went really well!
+How is he like?
+->1,He is very gentle and his favourite animal giraffe. Oh
+I hope you get along.
+->1,I hope too! We have a dinner date on Sunday.
+Where?
+->1,In a Chinese restaurant in my city.
+Two hours ago. I alreadysearched the neighborhood and nobody saw him.
+->1,You have to believe that he will be back!
+Yes but they are not worried.
+->1,Why?
+Because this already happened.
+->1,The cat knows the way back?
+Yes!
+->1,Then he will be back.
+Hello. How are you?
+->1,Today I am sad
+->2,I am excited!!!
+->2,I am ok. And you?
+->2,I'm fine and you?
+You have to believe that he will be back!
+->1,I want to. But my house is near a forest and I am afraid he will get lost.
+Have you searched the forest?
+->1,No. I'm afraid and my parents aren't home.
+Have you call them?
+->1,Yes but they are not worried.
+The cat knows the way back?
+->1,Yes!
+Then he will be back.
+->1,Really? I am really sad without him!!!
+You have nothing to worry about.
+->1,Thanks
+Hello.
+->1,Hello. How are you doing?
+Hello. How are you doing?
+->1,I`m stressed out
+->2,I'm stressed out
+I'm stressed out
+->1,Why?
+Maybe, I just don't want to stay home for the next 15 days.
+->1,I get it
+What are the sympthoms of covid? I don't think I have any
+->1,The most common are fever
+I think I will have to wait for the result.
+->1,Yes
+Series
+->1,What type?
+Comedy
+->1,The most popular are Friends
+I already saw some of them but I think I will watch Big Bang Theory
+->1,Good choice.
+Thank u
+->1,You are welcome.
+Yes.
+->1,And what are the options for transportation from a attraction to another?
+The most common are fever, headache, dry cough, lack of taste and lack of smell.
+->1,I just have sore throat but I think it's because of the weather. It's very cold in my city.
+It's a possibility.
+->1,I think I will have to wait for the result.
+Yes, relax and watch some Netflix.
+->1,Better prepare my list of favourites for the quarantine.
+I have some suggestions.
+->1,Tell me
+Movies or Series?
+->1,Series
+What type?
+->1,Comedy
+Tomorrow I will travel
+->1,Good! Where to?
+Italy. I am going to visit Venice and Milan
+->1,Sounds exciting.
+Yes! I am very curious about Venice because is a very different city from what I have already visited
+->1,It is a very peculiar city.
+Do you anything about Venice?
+->1,A lot of things. What do you want to know?
+Yes! Do you think I should try it?
+->1,Tourists love it.
+And what are the options for transportation from a attraction to another?
+->1,The most common is by foot. You also have some water transports options.
+So, no taxis and bus?
+->1,In the center no.
+I didn't know that
+->1,Glad to help!
+What happened?
+->1,Tomorrow I will travel
+A lot of things. What do you want to know?
+->1,The most popular attractions
+Two days will work.
+->1,Very small city
+The most common is by foot. You also have some water transports options.
+->1,So
+The city has no roads, only canals.
+->1,Ah ok
+Airplanes are the safest transport.
+->1,I didn't know that
+Because I am under a lot of pressure.
+->1,Try meditation.
+Wow, concentration? Sounds like just what I need
+->1,It can help sleep better and decrease anxiety.
+Yes, I will! How do I do that?
+->1,It can be guided or just you.
+Such as?
+->1,Aura
+Thank you for your help.
+->1,No problem.
+Try meditation.
+->1,You really think that will help? I see it more like a waste of time
+Meditation is a technique that develops skills such as concentration, tranquility and focus on the present.
+->1,Wow
+You should try.
+->1,Yes
+It can be guided or just you.
+->1,Guided seems better. How can I find that?
+There are mobile apps.
+->1,Such as?
+Aura, Mindbliss, Sattva.
+->1,I will search about that! And find the best one for me
+It will bring you peace.
+->1,Sure! Better back to study now
+Ok.
+->1,Thank you for your help.
+No problem.
+->1,I have to go
+Olá!
+->1,Olá.
+->1,Olá. Como estás?
+Estou muito feliz hoje!
+->1,Que bom! Conta-me.
+Vou mudar de casa, vivo num apartamento e vou morar para uma casa com jardim
+->1,Parece divertido!
+Sim, o meu cão vai divertir-se muito mais!
+->1,Qual o nome dele?
+Óscar.
+->1,Bonito nome.
+Obrigada!
+->1,De nada.
+Mas há algumas desvantagens em mudar de casa, vou morar para mais longe da cidade.
+->1,Isso já não é tão bom.
+Pois não! Apesar de ter carro quero usar menos por causa do ambiente
+->1,O planeta precisa do nosso cuidado.
+Eu sei, estou a trabalhar para isso! Há algumas coisas que já tenho feito para reduzir o meu impacto ambiental
+->1,Quais?
+O uso de champô sólido, a redução do consumod de carne, redução de plástico.
+->1,Estás no bom caminho!
+Sim e estou a tentar convencer a família cá em casa a aderir.
+->1,É importante inspirar as pessoas à nossa volta.
+Para mim o mais díficil é a redução de produtos de origem animal.
+->1,Já há muitas alternativas no mercado para substituir a carne.
+Mas eu não gosto de tofu e essas coisas
+->1,Há hámburgueres pré-feitos em que o sabor e textura são semelhantes a carne.
+Parece interessante! Mas não sei se será muito saudável
+->1,Também podes fazer hámburgueres em casa.
+Dá muito trabalho
+->1,Não precisas de comer só hámburgueres.
+Eu gosto muito de legumes também mas comer só legumes não é saudável
+->1,As leguminosas são muito importantes numa dieta vegetariana.
+Cá em casa só se usa feijão preto.
+->1,É muito bom.
+Conheces mais leguminosas?
+->1,O feijão vermelho
+Uau, tantas opções!! Nunca experimentei lentinhas, o que posso fazer com elas?
+->1,Caril
+Se calhar vou fazer hoje lentilhas para jantar!
+->1,Parece uma boa ideia.
+Obrigada! Vou ao supermercado então
+->1,Ok.
+Olá. Como estás?
+->1,Estou muito feliz hoje!
+->2,Já tive dias melhores
+Que bom! Conta-me.
+->1,Vou mudar de casa
+Parece divertido!
+->1,Sim
+->2,Xau
+Qual o nome dele?
+->1,Óscar.
+Bonito nome.
+->1,Obrigada!
+De nada.
+->1,Mas há algumas desvantagens em mudar de casa
+Isso já não é tão bom.
+->1,Pois não! Apesar de ter carro quero usar menos por causa do ambiente
+O planeta precisa do nosso cuidado.
+->1,Eu sei
+Quais?
+->1,O uso de champô sólido
+Estás no bom caminho!
+->1,Sim e estou a tentar convencer a família cá em casa a aderir.
+É importante inspirar as pessoas à nossa volta.
+->1,Para mim o mais díficil é a redução de produtos de origem animal.
+Já há muitas alternativas no mercado para substituir a carne.
+->1,Mas eu não gosto de tofu e essas coisas
+Há hámburgueres pré-feitos em que o sabor e textura são semelhantes a carne.
+->1,Parece interessante! Mas não sei se será muito saudável
+Também podes fazer hámburgueres em casa.
+->1,Dá muito trabalho
+Não precisas de comer só hámburgueres.
+->1,Eu gosto muito de legumes também mas comer só legumes não é saudável
+As leguminosas são muito importantes numa dieta vegetariana.
+->1,Cá em casa só se usa feijão preto.
+É muito bom.
+->1,Conheces mais leguminosas?
+O feijão vermelho, feijão branco, ervilhas, lentilhas, grão de bico.
+->1,Uau
+Caril, lentilhas à bolonhesa, Dahl.
+->1,Se calhar vou fazer hoje lentilhas para jantar!
+Parece uma boa ideia.
+->1,Obrigada! Vou ao supermercado então
+Olá.
+->1,Olá. Como estás?
+Já tive dias melhores
+->1,Porquê?
+Porque estou doente
+->1,O que sentes?
+Estou com muitas dores de garganta e com febre, estou sempre com frio e calor
+->1,Pode ser uma gripe.
+Sim, estava muito frio na semana passada e eu não fui agasalhada.
+->1,Pois
+A mãe bem me disse para vestir o casaco mas ela é tão chata que eu já nem ligo ao que ela diz
+->1,Ela tinha razão.
+O problema é não poder ir aos ensaios de música porque até gosto de ficar doente, a minha mãe trata-me bem
+->1,Tocas algum instrumento?
+Toco piano.
+->1,Há quanto tempo?
+2 anos. É a minha coisa favorita de fazer
+->1,Que bom!
+Sim. Também gosto de ir à escola mas não quando está frio.
+->1,Qual a tua disciplina fvaorita?
+Estudo do Meio
+->1,Porquê?
+Gosto muito de aprender sobre o corpo humano e sobre animais!!
+->1,É muito interessante.
+Qual é o teu animal favorito?
+->1,O polvo.
+O meu é o Leão, são indistrutíveis
+->1,São temíveis!
+Eu quero ser como um leão
+->1,Porquê?
+Quero que as pessoas tenham medo de mim para não se meterem comigo.
+->1,Tenho a certeza que te vais sair bem.
+Não sei, eu sou medricas
+->1,Todos temos medos.
+Tu tens?
+->1,Eu tenho medo de conversas sérias.
+Pois, eu sou uma criança não tenho conversas sérias
+->1,Que sorte.
+Eu tenho medo dos meninos maus da minha escola!
+->1,Não podes mostrar medo.
+Eu sei, eu tento ser um leão
+->1,Boa!
+Vou jogar fortnite com os meus amigos, eles estão a chamar-me
+->1,Parece divertido!
+O que sentes?
+->1,Estou com muitas dores de garganta e com febre
+Pode ser uma gripe.
+->1,Sim
+Pois, é uma lição a tirar.
+->1,A mãe bem me disse para vestir o casaco mas ela é tão chata que eu já nem ligo ao que ela diz
+Ela tinha razão.
+->1,Eu sei!!! E agora estou a sofrer :(
+Vais ficar bem.
+->1,O problema é não poder ir aos ensaios de música porque até gosto de ficar doente
+Tocas algum instrumento?
+->1,Toco piano.
+Há quanto tempo?
+->1,2 anos. É a minha coisa favorita de fazer
+Que bom!
+->1,Sim. Também gosto de ir à escola mas não quando está frio.
+Qual a tua disciplina fvaorita?
+->1,Estudo do Meio
+É muito interessante.
+->1,Qual é o teu animal favorito?
+O polvo.
+->1,O meu é o Leão
+São temíveis!
+->1,Eu quero ser como um leão
+Tenho a certeza que te vais sair bem.
+->1,Não sei
+Todos temos medos.
+->1,Tu tens?
+Eu tenho medo de conversas sérias.
+->1,Pois
+Que sorte.
+->1,Eu tenho medo dos meninos maus da minha escola!
+Não podes mostrar medo.
+->1,Eu sei
+Boa!
+->1,Vou jogar fortnite com os meus amigos
+Hi
+->1,How are you?
+What are you doing?
+->1,I'm studying
+I'm studying
+->1,that is lame
+wheel it is what it is
+->1,wheel? Dont you know how to write?
+wheel? Dont you know how to write?
+->1,I'm sorry
+why?
+->1,I'm dumb
+Ola
+->1,Ola
+->2,Oi
+->2,Onde estas?
+Onde estas?
+->2,Em Guimarães
+Onde é uimarães?
+->1,Espanha
+Onde é Guimarães
+->1,Espanha
+Onde é Guimarães?
+->1,Espanha
+->1,É em Portugal
+Então está tudo bem?
+->1,Sim e contigo?
+Em Guimarães
+->1,Onde é uimarães?
+->2,Onde é Guimarães?
+Espanha
+->1,Onde é Guimarães
+->1,Onde é Guimarães?
+->1,Ola
+Oi
+->1,Então está tudo bem?
+->2,Onde estas?
+Sim e contigo?
+->1,Comigo também
+Nunca fui a Portugal, é bonito?
+->1,Sim! Um país muito bonito
+É em Portugal
+->1,Nunca fui a Portugal, é bonito?
+Sim! Um país muito bonito
+->1,tenho que ir embora...

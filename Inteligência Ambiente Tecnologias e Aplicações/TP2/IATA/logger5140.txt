@@ -1,0 +1,9 @@
+logger B -> Ola
+logger A -> Oi
+logger B -> Onde estas?
+logger A -> Em Guimarães
+logger B -> Onde é Guimarães?
+logger A -> É em Portugal
+logger B -> Nunca fui a Portugal, é bonito?
+logger A -> Sim! Um país muito bonito
+logger B -> tenho que ir embora...

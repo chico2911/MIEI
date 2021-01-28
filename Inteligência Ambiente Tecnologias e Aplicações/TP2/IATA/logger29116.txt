@@ -1,0 +1,11 @@
+logger B -> Hello
+logger A -> Hello. How are you?
+logger B -> I'm fine and you?
+logger A -> I'm fine too. What are you doing?
+logger B -> I'm studying
+logger A -> that is lame
+logger B -> wheel it is what it is
+logger A -> wheel? Dont you know how to write?
+logger B -> I'm sorry
+logger A -> why?
+logger B -> I'm dumb

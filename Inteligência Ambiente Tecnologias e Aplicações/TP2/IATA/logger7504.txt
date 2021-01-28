@@ -1,0 +1,7 @@
+logger B -> Hi
+logger A -> How are you?
+logger B -> Everything is fine.And you?
+logger A -> I'm so glad to hear that. I'm fine to
+logger B -> What are you doing?
+logger A -> I'm studying 
+logger B -> bye

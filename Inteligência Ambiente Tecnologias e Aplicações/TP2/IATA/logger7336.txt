@@ -1,0 +1,3 @@
+logger B -> Olá :)
+logger A -> Hello! :D tudo bem?
+logger B -> bye

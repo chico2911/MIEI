@@ -1,0 +1,30 @@
+I am dumb
+->1,No
+I don't know if my other friends like vegetarian food.
+->1,You can do two lasagnas
+Ele fez anos. Mas não importa :(
+->1,Podes vender a tua bicicleta e juntar dinheiro para a que queres.
+Today I am sad, my cat ran away from home :(
+->1,I'm sorry. When?
+Really? I am really sad without him!!!
+->1,You have nothing to worry about.
+Today I were tested for covid-19 and I'm afraid of the result.
+->1,Everything wil be fine.
+I just have sore throat but I think it's because of the weather. It's very cold in my city.
+->1,It's a possibility.
+I get it, it's boring. You can read a lot and get a lot of knowledge, like me eheh.
+->1,You know a lot of things
+Thank you! I am curious about the gondolas
+->1,Gondola is the typical boat.
+Very small city, no?
+->1,Yes.
+That's weird
+->1,The city has no roads
+Gondola is the typical boat.
+->1,Yes! Do you think I should try it?
+In the center no.
+->1,That's weird
+I'm sorry
+->1,why?
+that is lame
+->1,wheel it is what it is

@@ -1,0 +1,9 @@
+{
+  "hosts": [
+    {
+      "adress": "127.0.0.1",
+      "port": "161",
+      "communityTarget": "gr2020"
+    }
+  ]
+}

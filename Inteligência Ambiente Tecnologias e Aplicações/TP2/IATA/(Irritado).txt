@@ -1,0 +1,20 @@
+today was a bad day
+->1,why?
+I received a bad grade
+->1,next you will get better
+I want to buy one for my university room but I heard that are bad for our health to keep plants in the bedroom
+->1,That is a myth.
+Today I'm feeling sad
+->1,Why?
+Yes but I get really sad at home because I have nothing to do. Only play playstation but I have nobody to play with me
+->1,What games do you like to play?
+I want to. But my house is near a forest and I am afraid he will get lost.
+->1,Have you searched the forest?
+I'm sorry. When?
+->1,Two hours ago. I alreadysearched the neighborhood and nobody saw him.
+I also have trouble sleeping but I never tried meditation for that
+->1,You should try.
+Eu sei!!! E agora estou a sofrer :(
+->1,Vais ficar bem.
+I'm sad
+->1,How are you?
